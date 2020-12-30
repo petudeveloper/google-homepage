@@ -1,0 +1,137 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+
+/* start nav */
+
+#nav-section {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 85%;    
+}
+
+.nav-link {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: rgb(39, 36, 36);
+}
+
+#nav-image {
+    border-radius: 50%;
+}
+
+/* end nav */
+/* start image section */
+
+#image-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+/* end image section */
+/* start search section */
+
+#search-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+#search-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+    height: 30px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+}
+
+#search-form {
+    border: 0;
+    margin-left: 10px;
+}
+
+#buttons {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(243, 243, 243, 0.534);
+}
+
+.button:hover {
+    border-color: rgb(163, 163, 163);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* end search section */
+/* start credits section */
+
+#credits-section {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    color: rgb(75, 69, 69);
+    font-size: 80%;
+}
+
+/* end credits section */
+/* start footer section */
+
+#footer-section {
+    width: 100%;   
+    background: rgba(219, 219, 219, 0.39); 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 95%;
+    color: grey;
+    border-bottom: rgba(151, 150, 150, 0.795) 1px solid;
+    border-top: rgba(151, 150, 150, 0.795) 1px solid;
+}
+
+#footer-superior {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-bottom: rgba(151, 150, 150, 0.795) 1px solid;
+}
+
+#footer-inferior {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: 40px;
+}
+
+#grid-left {
+    grid-column: 1/1;
+    grid-row: 1;
+}
+
+#grid-right {
+    grid-column: 2/2;
+    grid-row: 1;
+}
+
+/* end footer section */
