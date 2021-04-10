@@ -38,4 +38,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/petumazo/CSS-Frameworks/blob/main/LICENSE.md) licensed.
+This project is [MIT](https://github.com/petumazo/google-homepage/blob/main/LICENSE.md) licensed.
